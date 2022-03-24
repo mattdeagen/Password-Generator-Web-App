@@ -2,6 +2,9 @@
 /*
 COLOR THEME
 
+New Primary
+#2D3341
+
 Primary
 #545E75
 
@@ -14,19 +17,49 @@ Accent
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #545E75;
+    background-color: #2D3341;
     padding: 20px;
     margin: 0;
 }
 
-.container{
-    height: 200px;
-    width: 200px;
-    background-color: #A7CCED;
+#title {
+    color: #fafafa;
+    font-weight: 700;
 }
 
-.accent {
-    height: 20px;
-    width: 200px;
+#title-emphasis {
+    color: #A7CCED;
+}
+
+#subtitle {
+    font-weight: 400;
+    color: #fafafa;
+}
+
+.fa-bolt-lightning {
+    color: #fafafa
+}
+
+#generate-passwords-btn {
+    padding: 10px 20px;
+    background-color: #A7CCED;
+    color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container{
+    width: 85%;
+    height: 50vh;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.divider {
+    border: 1px solid #63ADF2;
     background-color: #63ADF2;
+    margin-top: 20px;
+    border-radius: 7px;
 }
