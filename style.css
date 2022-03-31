@@ -28,7 +28,7 @@ body {
 }
 
 #title-emphasis {
-    color: #A7CCED;
+    color: #63ADF2;
 }
 
 #subtitle {
@@ -48,6 +48,17 @@ body {
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 700;
+    transition: 0.5s;
+}
+
+#generate-passwords-btn:hover {
+    background-color: #63ADF2;
+    transition: 0.5s;
+}
+
+#generate-passwords-btn:active {
+    transform: scale(0.95);
+    transition: 0.1s;
 }
 
 .container{
@@ -90,7 +101,7 @@ body {
 }
 
 .copy-container {
-    background-color: rgba(99, 173, 242, 1);
+    background-color: #b4d1eb;
     width: 40px;
     height: 40px;
     border-radius: 5px;
@@ -98,6 +109,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
+}
+
+.copy-container:hover {
+    background-color: #63ADF2;
+    transition: 0.5s;
+}
+
+.copy-container:active {
+    transform: scale(0.8);
+    transition: 0.15s;
 }
 
 .copy-icon {
